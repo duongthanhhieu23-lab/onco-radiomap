@@ -91,7 +91,7 @@ class ArkVisionEmbedding:
             or os.getenv("ARK_DOUBAO_BASE_URL")
             or "https://ark.cn-beijing.volces.com/api/v3"
         ).rstrip("/")
-        # endpoint_id is the VOLC "接入点" id; model is the model family name.
+        # endpoint_id is the VOLC inference endpoint ID; model is the model family name.
         # Ark accepts EITHER as the `model` field. Prefer endpoint_id when set.
         self.endpoint_id = endpoint_id or os.getenv("HUANYU_EMBED_ENDPOINT_ID") or ""
         self.model = (
@@ -232,7 +232,8 @@ class ArkVisionEmbedding:
         report: dict[str, Any] = {"ok": False}
         try:
             v_en = self._embed_one("hello world")
-            v_zh = self._embed_one("慢性阻塞性肺疾病 PM2.5")
+            # Chinese input (chronic obstructive pulmonary disease) tests the CJK fallback.
+            v_zh = self._embed_one("\u6162\u6027\u963b\u585e\u6027\u80ba\u75be\u75c5 PM2.5")
             report["dim"] = len(v_en)
             report["dim_match"] = len(v_en) == self.embedding_dim
             report["cn_fallback_worked"] = len(v_zh) == len(v_en)

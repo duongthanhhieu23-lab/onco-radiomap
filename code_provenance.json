@@ -28,7 +28,8 @@
       "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/embedding_client.py",
       "source_sha256": "ecf3d971273ebea6febff3346a12e4c85546a016b1360d856cef79970299160c",
       "selection": "complete module",
-      "import_adaptations": []
+      "import_adaptations": [],
+      "packaging_transformation": "embedding_documentation"
     },
     {
       "file": "src/onco_radiomap_agent/entity_candidates.py",
