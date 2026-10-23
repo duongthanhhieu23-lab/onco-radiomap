@@ -1,0 +1,8 @@
+{
+  "cases": "inputs/cases.jsonl",
+  "rule_facts": "inputs/rule_facts.jsonl",
+  "naive_contexts": "inputs/naive_contexts.jsonl",
+  "lightrag_contexts": "inputs/lightrag_contexts.jsonl",
+  "claim_facts": "inputs/claim_facts.jsonl",
+  "claim_contexts": "inputs/claim_contexts.jsonl"
+}

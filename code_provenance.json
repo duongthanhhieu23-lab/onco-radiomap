@@ -1,0 +1,420 @@
+{
+  "research_release": "V1.3.2",
+  "packaged_on": "2026-10-24",
+  "files": [
+    {
+      "file": "src/onco_radiomap_agent/baseline_data.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/baseline_data.py",
+      "source_sha256": "854af0a920bfebd7e1e82f7e1a0f54bb91b37f99d0a56ccde17c7590557f6f44",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/challenge_overlay.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/challenge_overlay.py",
+      "source_sha256": "5b018d8059881afc2d003f0bac4d879bbe43d808922e3a356fd2deb025b4980c",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/design_extraction.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/design_extraction.py",
+      "source_sha256": "c2a91be09836d6258953b72efd7f73633ac5350c0317e7feffa87a09c49e4184",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/embedding_client.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/embedding_client.py",
+      "source_sha256": "ecf3d971273ebea6febff3346a12e4c85546a016b1360d856cef79970299160c",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/entity_candidates.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/entity_candidates.py",
+      "source_sha256": "3b2504d7b0e224827631a45c953c72f8d5935a8c8534f610a693bde27b0ede96",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/evaluation.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/evaluation.py",
+      "source_sha256": "397ad224c5ccdf6f3f1268110cc104363d7624f8822237b52e079366affd5096",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/lightrag_retriever.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/lightrag_retriever.py",
+      "source_sha256": "bb31458be0cef913f820e161379c4fa7d8ed109785aa9fa811d417788ae74be3",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/naive_rag.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/naive_rag.py",
+      "source_sha256": "d192ca0f265f631ba3ff649b839e8367da0d25523d5c4b7f871846a627b704bc",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/normalize.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/normalize.py",
+      "source_sha256": "d862640f6529472959589d8a1091f4640181b1ba1ba1fe2439cab6f40d252409",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/prediction_facts.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/prediction_facts.py",
+      "source_sha256": "71a5d2fb5f2800d0337943b32821da90cd61745ef795254f150661bed3738e34",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/prediction_rules.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/prediction_rules.py",
+      "source_sha256": "46840d8f756de4ad79825be873a991b072c2db0d1b26fec923a4f160144399ab",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/registry.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/registry.py",
+      "source_sha256": "67faaaa26efce0473e1d6150eb56d82753c7987e18416216f2aedb16be7f72e3",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/schemas.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/schemas.py",
+      "source_sha256": "342a71fa0cb3643ddeadc384cf0fa2e73528302a8fb07f9a7d47531be39e840b",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/full_system_control.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/full_system_control.py",
+      "source_sha256": "312e64aaa6180412a11e9f19c9a6192458cce06fbad7af780396be5e558ae34f",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/lightrag_adapter.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/lightrag_adapter.py",
+      "source_sha256": "39b179c89309e1d7d2a42b15c8972418de2423758cc3c646a5c18c29e66a8d98",
+      "selection": "complete module",
+      "import_adaptations": [
+        "project_root = Path(__file__).resolve().parents[2]"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/llm_client.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/src/onco_radiomap_agent/llm_client.py",
+      "source_sha256": "4fb8715e8dc2c39331689d59b665321341ff66a7ec8b14783583561ea964a106",
+      "selection": "complete module",
+      "import_adaptations": [],
+      "packaging_transformation": "client_documentation"
+    },
+    {
+      "file": "src/onco_radiomap_agent/claim_scope.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/src/onco_radiomap_agent/prediction_rules.py",
+      "source_sha256": "fcc28e6d894feae129731ff7e875943ead0981d37197d63869a4256dc698a416",
+      "selection": [
+        "_eligible",
+        "query_pair_candidate_status",
+        "query_pair_match_basis"
+      ],
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/evidence_attribution.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/src/onco_radiomap_agent/evidence_attribution.py",
+      "source_sha256": "300a268d5ee7bc0eec458b5b6d0fd097f4e46c1cf3e801cf064f918fd1e319cc",
+      "selection": [
+        "balanced_excerpt",
+        "segments"
+      ],
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/conclusion_alignment.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/src/onco_radiomap_agent/conclusion_alignment.py",
+      "source_sha256": "26198d5c9043bd196e7f62ed3f38952f40f77ee75fdb8a947adbe7d526166606",
+      "selection": [
+        "MAX_TOKENS",
+        "SYSTEM",
+        "VERSION",
+        "apply_claims",
+        "load_aliases",
+        "make_payload",
+        "visible_sources"
+      ],
+      "import_adaptations": [
+        "from .prediction_rules import"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/preparation.py",
+      "source": "versions/V1.3.1/frozen_sources/v121/scripts/run_baselines.py",
+      "source_sha256": "8dede06100a17245c8446c0ca90abb9eb582355c99c2d794124aa00c37a664c6",
+      "selection": [
+        "FULL_SYSTEM_PROMPT",
+        "METHODS",
+        "PAIR_SNAPSHOT_GUIDANCE",
+        "SYSTEM_PROMPT",
+        "_full_system_proposals",
+        "_full_system_rows",
+        "_llm_item",
+        "_requires_full_system_arbiter"
+      ],
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/arbiter.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/scripts/run_baselines.py",
+      "source_sha256": "f902c0425f75c1d4d9f824a14e117e18807fd356b8d17f741de1fd257493048d",
+      "selection": [
+        "_complete_deterministic_override_reason",
+        "_full_system_proposals",
+        "_merge_full_system_arbiter",
+        "_normalize_llm_prediction",
+        "_override_audit"
+      ],
+      "import_adaptations": [],
+      "packaging_transformation": "supplied_rules_only"
+    },
+    {
+      "file": "src/onco_radiomap_agent/task_contract.py",
+      "source": "versions/V1.3.2/scripts/contract.py",
+      "source_sha256": "04b1fe9df176eeb1fe3fd32d5b5c1ba0e64506ae056ad061b1d33c4fe0179c7f",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/claims.py",
+      "source": "versions/V1.3.1/scripts/components.py",
+      "source_sha256": "d3f65588ec21f21ccc4365e30500951d8b7031985c24876ad02cd86ca0b481a5",
+      "selection": [
+        "apply_conclusion_only",
+        "assert_no_answers",
+        "conclusion_request"
+      ],
+      "import_adaptations": [
+        "from onco_radiomap_agent import conclusion_alignment as ca"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/ownership_base.py",
+      "source": "versions/V1.3.1-C1.1/scripts/postprocess.py",
+      "source_sha256": "ba61ca470b85bb25797218c9903010025d03654e28e355f2349e257ea4679651",
+      "selection": [
+        "Tumors",
+        "apply",
+        "isotopes",
+        "ownership_reason",
+        "recover_span"
+      ],
+      "import_adaptations": [
+        "from components import ca, assert_no_answers"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/ownership_population.py",
+      "source": "versions/V1.3.1-C1.1/scripts/postprocess_revision2.py",
+      "source_sha256": "34aa5ccff3d41211c87fa031407631b89e5cc4a1c175b6d65273da8ad3256c17",
+      "selection": "complete module",
+      "import_adaptations": [
+        "import postprocess as base"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/ownership.py",
+      "source": "versions/V1.3.1-C1.1/scripts/postprocess_revision3.py",
+      "source_sha256": "9bb24917aac885ba23e0b39938602fd4a7367907e68a76c8e08a5aaa7525bb78",
+      "selection": "complete module",
+      "import_adaptations": [
+        "import postprocess as base",
+        "import postprocess_revision2 as r2"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/maturity.py",
+      "source": "versions/V1.3.1-C2.1/scripts/maturity_final.py",
+      "source_sha256": "7c882e4cda3e4a9d997aec2c4435bd6e567e1752f92d523737eff7c6fc949a57",
+      "selection": [
+        "Tumors",
+        "candidate",
+        "design_repair"
+      ],
+      "import_adaptations": [
+        "from postprocess import recover_span, isotopes, ownership_reason",
+        "from postprocess_revision3 import Tumors, extra_ownership_reason"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/maturity_compat.py",
+      "source": "versions/V1.3.2/repairs/arbiter_compat_20260920/maturity_compat.py",
+      "source_sha256": "02cb2abe86532eee8081f2d5ef5b27e2bea45c2fcc88df2f6e8ffd3b5ba7449d",
+      "selection": [
+        "candidate",
+        "required_claim_case_ids"
+      ],
+      "import_adaptations": [
+        "import maturity_final as legacy"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/claim_renderer.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/src/onco_radiomap_agent/lightrag_retriever.py",
+      "source_sha256": "453b6a94ad94125bb693b52bf6feb301fc34e45ea4623a5e32c6435e523eee3d",
+      "selection": "EvidenceBlock, pack_complete_blocks, _design_signal_summary, FrozenLightRAGRetriever._render_snapshot_candidates"
+    },
+    {
+      "file": "src/onco_radiomap_agent/claim_context.py",
+      "source": "versions/V1.3.1/frozen_sources/v13/scripts/full_system_stages.py",
+      "source_sha256": "e439bbab88c273719bc19376cf0d3a096f5101d6ed780e8e27a1a57289d6cd08",
+      "selection": [
+        "pair_context"
+      ],
+      "import_adaptations": [
+        "from onco_radiomap_agent.lightrag_retriever import",
+        "from onco_radiomap_agent.prediction_rules import _eligible, _parse_date, population_scope_compatible, query_pair_candidate_status"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/response_io.py",
+      "source": "versions/V1.3.2/scripts/live_io.py",
+      "source_sha256": "e3646c26717346dfc36a9209e429a1973169b174d682a50f000430df72a15822",
+      "selection": [
+        "digest",
+        "parsed_response"
+      ],
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/expert_metrics.py",
+      "source": "versions/V1.3.2/expert90_single_run_20260920/analyze.py",
+      "source_sha256": "39d1dfb5bcef07c8a8dfe9a92e272d8ae7b71819ec51635b7ac72bbe1acda512",
+      "selection": [
+        "analyze",
+        "kappa",
+        "wilson"
+      ],
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/repeated_metrics.py",
+      "source": "versions/V1.3.2/five_runs_20260920/score.py",
+      "source_sha256": "a078f438572db376182360152383f31ab6221b1f3aa93ae130cc11b365c57a48",
+      "selection": [
+        "cluster_ci",
+        "stats"
+      ],
+      "import_adaptations": [
+        "from analyze import LABELS"
+      ]
+    },
+    {
+      "file": "tests/test_maturity_compat.py",
+      "source": "versions/V1.3.2/repairs/arbiter_compat_20260920/test_maturity_compat.py",
+      "source_sha256": "b2750cd2e5ea5d6e7a524ed80451163b7a213c44f5a8018fb8a41fa148572bff",
+      "selection": "complete module",
+      "import_adaptations": [
+        "import maturity_compat as m"
+      ]
+    },
+    {
+      "file": "tests/test_ownership.py",
+      "source": "versions/V1.3.1-C1.1/tests/test_postprocess.py",
+      "source_sha256": "15b6a1d4ac1d9ecc7280706ca59da468c44385dddcd46e2db053f41756f4cf47",
+      "selection": "complete module",
+      "import_adaptations": [
+        "sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))\nfrom postprocess import *",
+        "'scripts/postprocess.py'"
+      ]
+    },
+    {
+      "file": "tests/test_ownership_population.py",
+      "source": "versions/V1.3.1-C1.1/tests/test_revision2.py",
+      "source_sha256": "c6087aac6e502da916f71a72371e86f0c70a8f8cb5214330f5051bad5171253b",
+      "selection": "complete module",
+      "import_adaptations": [
+        "sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))",
+        "import postprocess_revision2 as r2",
+        "from test_postprocess import example"
+      ]
+    },
+    {
+      "file": "tests/test_ownership_final.py",
+      "source": "versions/V1.3.1-C1.1/tests/test_revision3.py",
+      "source_sha256": "18cf851866ec34c97dee2ef16e0c1fb10694e35f71b6251bec1984e4109c16b5",
+      "selection": "complete module",
+      "import_adaptations": [
+        "sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))",
+        "import postprocess_revision3 as r3",
+        "from test_revision2 import T",
+        "from test_postprocess import example"
+      ]
+    },
+    {
+      "file": "tests/test_maturity.py",
+      "source": "versions/V1.3.1-C2.1/tests/test_maturity.py",
+      "source_sha256": "7ec351d7c12dde33e6886574288b365ea0f20f667cb14cf4bf9c003120aede50",
+      "selection": "complete module",
+      "import_adaptations": [
+        "sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))",
+        "from maturity import",
+        "'scripts/maturity.py'"
+      ]
+    },
+    {
+      "file": "tests/test_maturity_protocol.py",
+      "source": "versions/V1.3.1-C2.1/tests/test_final_protocol.py",
+      "source_sha256": "d3ab54e9c7dea55814951fc90f5ce8cf5d09c3ec3934ad5e099cab1e028c99a5",
+      "selection": [
+        "test_actual_randomized_result_is_not_protocol",
+        "test_long_inclusion_criteria_do_not_hide_future_allocation"
+      ],
+      "import_adaptations": [
+        "import maturity_final as final"
+      ]
+    },
+    {
+      "file": "src/onco_radiomap_agent/resources/entities_a.csv",
+      "source": "versions/V1.3/data/v1.2.1/reference-repair/registries/entities_a.csv",
+      "source_sha256": "452e38c9b3c5425e867a4643f9c1ddaf3834302068a17248c52eda1cd4796162",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/resources/entities_b.csv",
+      "source": "versions/V1.3/data/v1.2.1/reference-repair/registries/entities_b.csv",
+      "source_sha256": "0631ef6d17b298ad0c58ef0c4664cbd1a3fe554b491d4eb88279d7aaeb396f00",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/resources/provisional_radiopharmaceuticals.json",
+      "source": "versions/V1.3/evidence/v1.2.1/reference-repair/provisional_external_radiopharmaceuticals.json",
+      "source_sha256": "2eb6821d1b78de276147400f00d8dab04f0cf60433f89bf43052cfb4116ef196",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/resources/prompts/entity_type/onco_radiomap_two_entity.yml",
+      "source": "onco-radiomap/prompts/entity_type/onco_radiomap_two_entity.yml",
+      "source_sha256": "0e323b3ebb622eda3007eac68e91b41dc4fd2164882003e1ab1b4f8af647e575",
+      "selection": "complete module",
+      "import_adaptations": []
+    },
+    {
+      "file": "src/onco_radiomap_agent/resources/predictions.schema.json",
+      "source": "onco-radiomap/evidence/phase3/baseline_predictions.schema.json",
+      "source_sha256": "069fe282c6a7d695f98fea31449c9ba114243bb903ab5b618797256004eafcba",
+      "selection": "complete module",
+      "import_adaptations": []
+    }
+  ]
+}

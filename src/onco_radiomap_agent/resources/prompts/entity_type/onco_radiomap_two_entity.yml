@@ -1,0 +1,54 @@
+entity_types_guidance: |
+  This project permits exactly two entity types and no `Other` entities:
+
+  - TumorSubtype: use only the exact canonical identifier printed after
+    `Resolved tumor subtype:` in the input. Stage, target expression,
+    adult/pediatric status, prior treatment, disease state, and uncoded
+    biomarkers are applicability conditions, never TumorSubtype entities.
+  - Radiopharmaceutical: use only the exact canonical active-construct
+    identifier printed after `Resolved radiopharmaceutical:` in the input.
+
+  Never extract people, organizations, methods, biomarkers, radionuclides,
+  ligands, outcomes, trial phases, patient groups, or template examples as
+  entities. Never invent an identifier. Extract a relationship only between
+  one TumorSubtype and one Radiopharmaceutical when `Source role` is exactly
+  `primary_human_result` and the input explicitly reports human evidence.
+  Use one or more of these exact relationship keywords only:
+  `diagnostic_human_evidence`, `therapeutic_human_evidence`,
+  `theranostic_selection_evidence`. Put applicability conditions, maturity
+  clues, and supportive/negative/inconclusive wording in the relationship
+  description; do not create extra entities for them. A registry record,
+  guideline, regulatory record, discovery article, or preclinical study is
+  not itself a human-result relationship.
+
+entity_extraction_examples:
+  - |
+    entity<|#|>NCIT:C000001<|#|>TumorSubtype<|#|>The canonical tumor subtype stated in the source.
+    entity<|#|>RP:EXAMPLE001<|#|>Radiopharmaceutical<|#|>The canonical active radiopharmaceutical construct stated in the source.
+    relation<|#|>NCIT:C000001<|#|>RP:EXAMPLE001<|#|>diagnostic_human_evidence<|#|>A human imaging study reports diagnostic evidence for this pair under the stated study conditions.
+    <|COMPLETE|>
+
+entity_extraction_json_examples:
+  - |
+    {
+      "entities": [
+        {
+          "name": "NCIT:C000001",
+          "type": "TumorSubtype",
+          "description": "The canonical tumor subtype stated in the source."
+        },
+        {
+          "name": "RP:EXAMPLE001",
+          "type": "Radiopharmaceutical",
+          "description": "The canonical active radiopharmaceutical construct stated in the source."
+        }
+      ],
+      "relationships": [
+        {
+          "source": "NCIT:C000001",
+          "target": "RP:EXAMPLE001",
+          "keywords": "diagnostic_human_evidence",
+          "description": "A human imaging study reports diagnostic evidence for this pair under the stated study conditions."
+        }
+      ]
+    }

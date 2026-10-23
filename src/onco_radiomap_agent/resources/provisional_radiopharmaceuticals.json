@@ -1,0 +1,294 @@
+{
+  "schema_version": "onco-radiomap-provisional-external-B-v1",
+  "policy": "open-world local IDs do not alter the frozen Phase-1 registry",
+  "records": [
+    {
+      "radiopharmaceutical_id": "RPNEW:0BE0CAA91E0CE64B",
+      "preferred_name": "177Lu-PSMA-1",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:38302933",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/38302933/#abstract",
+      "evidence_public_date": "2024-02-01"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:0EA9CD21A6EEC623",
+      "preferred_name": "131I-LNTH-1095",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41779000",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41779000/#abstract",
+      "evidence_public_date": "2026-03-04"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:1DB814FD29592CC9",
+      "preferred_name": "225Ac-DOTA-YS5",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:36917693",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/36917693/#abstract",
+      "evidence_public_date": "2023-03-15"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:1E75270769FBC92D",
+      "preferred_name": "99mTc-MIBI",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:38966961",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/38966961/#abstract",
+      "evidence_public_date": "2023-01-01"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:2A44D5D95F4FC4E1",
+      "preferred_name": "177Lu-DOTA-IBA",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41771033",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41771033/#abstract",
+      "evidence_public_date": "2026-03-02"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:35388909C79652A6",
+      "preferred_name": "177Lu-CHX-A",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41537706",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41537706/#abstract",
+      "evidence_public_date": "2026-01-16"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:3CCAA495EAFC1F4C",
+      "preferred_name": "68Ga-OncoFAP-DOTAGA",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41854769",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41854769/#abstract",
+      "evidence_public_date": "2026-03-19"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:3D78984692C40173",
+      "preferred_name": "225Ac-DOTA-2Rs15d",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41390415",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41390415/#abstract",
+      "evidence_public_date": "2025-12-13"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:5AD1BF3808884AB9",
+      "preferred_name": "177Lu-LNC1004",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:40084923",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/40084923/#abstract",
+      "evidence_public_date": "2025-03-14"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:604024986E285211",
+      "preferred_name": "177Lu-DOTAGA.Glu",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:42348144",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/42348144/#abstract",
+      "evidence_public_date": "2026-06-25"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:6818BA7E3BF5F9BB",
+      "preferred_name": "68Ga-DOTA-mFS-KERERG-FAP-2286",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41979762",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41979762/#abstract",
+      "evidence_public_date": "2026-04-14"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:685F0488A2CA8FB7",
+      "preferred_name": "177Lu-LNC1011",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41993609",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41993609/#abstract",
+      "evidence_public_date": "2026-01-01"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:6A18DBAC830974E0",
+      "preferred_name": "225Ac-Macropa-PEG4-YS5",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:39945595",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/39945595/#abstract",
+      "evidence_public_date": "2025-02-13"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:73202A181A74A3D9",
+      "preferred_name": "68Ga-DOTA-Siglec-9",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41420234",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41420234/#abstract",
+      "evidence_public_date": "2025-12-19"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:7BDA166C82D397A7",
+      "preferred_name": "225Ac-mcp-Direct-SG",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41760827",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41760827/#abstract",
+      "evidence_public_date": "2026-02-28"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:7C28912D4455A232",
+      "preferred_name": "225Ac-macropa-pelgifatamab",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:38593212",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/38593212/#abstract",
+      "evidence_public_date": "2024-04-09"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:8D2FC69FC7AB7E49",
+      "preferred_name": "177Lu-EB-FAPI",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:37801296",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/37801296/#abstract",
+      "evidence_public_date": "2023-10-06"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:8E24D7E1EA9C8F4E",
+      "preferred_name": "68Ga-PMSA",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:40269385",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/40269385/#abstract",
+      "evidence_public_date": "2025-04-01"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:91E726E9189BCCB5",
+      "preferred_name": "161Tb-PSMA-617",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:36758550",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/36758550/#abstract",
+      "evidence_public_date": "2023-02-08"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:96FF86FC683C36BD",
+      "preferred_name": "225Ac-NM600",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:42080948",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/42080948/#abstract",
+      "evidence_public_date": "2026-05-04"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:989DEDD6E8DDEFBB",
+      "preferred_name": "99mTc-OCTREOTIDE",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:40179301",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/40179301/#abstract",
+      "evidence_public_date": "2025-04-03"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:BA6C8165D959D01F",
+      "preferred_name": "99mTc-FAPI-46",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:40065418",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/40065418/#abstract",
+      "evidence_public_date": "2025-03-11"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:C18854F158A06521",
+      "preferred_name": "123I-PSMA-7",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:39042333",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/39042333/#abstract",
+      "evidence_public_date": "2024-07-23"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:C77DA6469D3A749C",
+      "preferred_name": "225Ac-PSMA-CY313",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:42611148",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/42611148/#abstract",
+      "evidence_public_date": "2026-08-18"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:CB509590B91A05F8",
+      "preferred_name": "68Ga-N188",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:37093191",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/37093191/#abstract",
+      "evidence_public_date": "2023-04-24"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:D267CAAAF8E73D07",
+      "preferred_name": "68Ga-DOTA-peptide",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:39682626",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/39682626/#abstract",
+      "evidence_public_date": "2024-12-03"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:D2EA66F6100528A7",
+      "preferred_name": "18F-AlF-NOTA-ADH-1",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:37284201",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/37284201/#abstract",
+      "evidence_public_date": "2023-01-01"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:DF083BABD16F3744",
+      "preferred_name": "11C-AZ14193391",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41437644",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41437644/#abstract",
+      "evidence_public_date": "2025-12-24"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:DF0E3506FC6ABD48",
+      "preferred_name": "68Ga-lium-pentixafor",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:37989124",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/37989124/#abstract",
+      "evidence_public_date": "2023-11-22"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:E3A9DFE3E794AC50",
+      "preferred_name": "177Lu-FAPI-2286",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:42215966",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/42215966/#abstract",
+      "evidence_public_date": "2026-05-29"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:E8D58199A74728F4",
+      "preferred_name": "68Ga-DOTA-Sar10-Nectin-4",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:41485193",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/41485193/#abstract",
+      "evidence_public_date": "2026-01-04"
+    },
+    {
+      "radiopharmaceutical_id": "RPNEW:EBD09F29EC48A23D",
+      "preferred_name": "99mTc-MIP-1404",
+      "status": "provisional_open_world_external_only",
+      "identity_basis": "explicit radionuclide-plus-ligand string in source text",
+      "first_source_id": "PMID:42489957",
+      "first_source_locator": "https://pubmed.ncbi.nlm.nih.gov/42489957/#abstract",
+      "evidence_public_date": "2026-07-22"
+    }
+  ]
+}

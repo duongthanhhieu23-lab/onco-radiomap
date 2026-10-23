@@ -1,0 +1,56 @@
+{
+  "research_release": "V1.3.2",
+  "packaged_on": "2026-10-24",
+  "packaging_revision": 2,
+  "verification_scope": "Offline frozen-response replay and local packaging with existing dependencies",
+  "offline_regression_tests": {
+    "passed": 123,
+    "failed": 0
+  },
+  "frozen_replay": {
+    "datasets": 3,
+    "methods": 4,
+    "runs": 5,
+    "prediction_groups": 60,
+    "prediction_rows": 35240,
+    "task_field_mismatches": 0,
+    "compared_fields": [
+      "case_id",
+      "dataset_id",
+      "case_type",
+      "clinical_use",
+      "method_id",
+      "run_id",
+      "prediction_status",
+      "predicted_relation_eligible",
+      "predicted_atomic_conclusion",
+      "predicted_maturity_code",
+      "predicted_evidence_conclusion",
+      "predicted_tumor_subtype_id",
+      "predicted_radiopharmaceutical_id",
+      "entity_resolution_status",
+      "graph_insertable"
+    ],
+    "classification_request_identities_matched": 29930,
+    "full_pair_claim_and_maturity_audits_matched": 1743,
+    "api_calls": 0,
+    "transport_metadata_note": "Portable paths and legacy run-1 receipt metadata may differ; decision fields and the three claim/maturity audit structures were compared."
+  },
+  "package": {
+    "wheel": "onco_radiomap_agent-1.3.2-py3-none-any.whl",
+    "source_checkout_used_for_import": false,
+    "registry_resources_available": true,
+    "prompt_resource_available": true,
+    "offline_four_method_demo": "passed",
+    "fresh_dependency_download": "not_run",
+    "live_api_test": "not_run",
+    "index_rebuild": "not_run",
+    "local_build_and_import": "passed"
+  },
+  "credential_pattern_scan": {
+    "findings": 0,
+    "actual_env_file_included": false
+  },
+  "evaluation_module_ast_unchanged": true,
+  "data_and_provider_receipts_included": false
+}

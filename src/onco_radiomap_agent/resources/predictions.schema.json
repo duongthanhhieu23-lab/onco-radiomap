@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onco-radiomap.local/schemas/baseline_predictions.schema.json",
+  "title": "Onco-RadioMap baseline prediction",
+  "description": "One JSON object per line in baseline_predictions.jsonl. Prediction records link to cases.jsonl by case_id and cannot contain reference labels.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "dataset_id",
+    "case_type",
+    "clinical_use",
+    "method_id",
+    "run_id",
+    "predicted_tumor_subtype_id",
+    "predicted_radiopharmaceutical_id"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "dataset_id": {
+      "enum": [
+        "dev-human-evidence-pre2023",
+        "internal-source-heldout-pre2023",
+        "external-temporal-2023-20260823"
+      ]
+    },
+    "case_type": {
+      "enum": [
+        "atomic_source_record",
+        "pair_snapshot"
+      ]
+    },
+    "clinical_use": {
+      "enum": [
+        "diagnostic",
+        "therapeutic"
+      ]
+    },
+    "method_id": {
+      "enum": [
+        "pure_llm",
+        "naive_rag",
+        "lightrag",
+        "full_system"
+      ]
+    },
+    "run_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "predicted_tumor_subtype_id": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "predicted_radiopharmaceutical_id": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "predicted_relation_eligible": {
+      "type": "boolean"
+    },
+    "predicted_atomic_conclusion": {
+      "enum": [
+        "supportive",
+        "negative",
+        "inconclusive",
+        null
+      ]
+    },
+    "predicted_maturity_code": {
+      "enum": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ]
+    },
+    "predicted_evidence_conclusion": {
+      "enum": [
+        "supportive",
+        "negative",
+        "inconclusive",
+        "conflicting"
+      ]
+    },
+    "prediction_provenance": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "case_type": {
+            "const": "atomic_source_record"
+          }
+        },
+        "required": [
+          "case_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "predicted_relation_eligible",
+          "predicted_atomic_conclusion"
+        ],
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "predicted_maturity_code"
+              ]
+            },
+            {
+              "required": [
+                "predicted_evidence_conclusion"
+              ]
+            }
+          ]
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "predicted_relation_eligible": {
+                  "const": true
+                }
+              },
+              "required": [
+                "predicted_relation_eligible"
+              ]
+            },
+            "then": {
+              "properties": {
+                "predicted_atomic_conclusion": {
+                  "enum": [
+                    "supportive",
+                    "negative",
+                    "inconclusive"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "predicted_relation_eligible": {
+                  "const": false
+                }
+              },
+              "required": [
+                "predicted_relation_eligible"
+              ]
+            },
+            "then": {
+              "properties": {
+                "predicted_atomic_conclusion": {
+                  "const": null
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "case_type": {
+            "const": "pair_snapshot"
+          }
+        },
+        "required": [
+          "case_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "predicted_maturity_code",
+          "predicted_evidence_conclusion"
+        ],
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "predicted_relation_eligible"
+              ]
+            },
+            {
+              "required": [
+                "predicted_atomic_conclusion"
+              ]
+            }
+          ]
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "clinical_use": {
+                  "const": "diagnostic"
+                }
+              },
+              "required": [
+                "clinical_use"
+              ]
+            },
+            "then": {
+              "properties": {
+                "predicted_maturity_code": {
+                  "enum": [
+                    "D1",
+                    "D2",
+                    "D3",
+                    "D4"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "clinical_use": {
+                  "const": "therapeutic"
+                }
+              },
+              "required": [
+                "clinical_use"
+              ]
+            },
+            "then": {
+              "properties": {
+                "predicted_maturity_code": {
+                  "enum": [
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
